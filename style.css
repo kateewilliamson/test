@@ -1,0 +1,59 @@
+/*
+Theme Name: Total Child
+Theme URI: http://totalwptheme.com
+Description: Total WordPress theme example child theme.
+Author: AJ Clarke
+Author URI: http://totalwptheme.com
+Template: Total
+Version: 1.1
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+
+
+@font-face {
+    font-family: 'Green Man Course';
+    src: url('GreenMan-Course.eot');
+    src: url('GreenMan-Course.eot?#iefix') format('embedded-opentype'),
+        url('GreenMan-Course.woff2') format('woff2'),
+        url('GreenMan-Course.woff') format('woff'),
+        url('GreenMan-Course.svg#GreenMan-Course') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Green Man Sharp';
+    src: url('GreenMan-Sharp.eot');
+    src: url('GreenMan-Sharp.eot?#iefix') format('embedded-opentype'),
+        url('GreenMan-Sharp.woff2') format('woff2'),
+        url('GreenMan-Sharp.woff') format('woff'),
+        url('GreenMan-Sharp.svg#GreenMan-Sharp') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Green Man Fine';
+    src: url('GreenMan-Fine.eot');
+    src: url('GreenMan-Fine.eot?#iefix') format('embedded-opentype'),
+        url('GreenMan-Fine.woff2') format('woff2'),
+        url('GreenMan-Fine.woff') format('woff'),
+        url('GreenMan-Fine.svg#GreenMan-Fine') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Green Man Plain';
+    src: url('greenman_plain.eot');
+    src: url('greenman_plain.eot?#iefix') format('embedded-opentype'),      
+        url('greenman_plain.woff') format('woff'),
+        url('greenman_plain.ttf') format('ttf'),
+        url('greenman_plain.svg#greenman_plain') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
